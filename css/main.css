@@ -2,9 +2,9 @@
 	Template Name: Flosix
 	Author: Designstub
 	Author URI: http://www.designstub.com
-	
-	
-	
+
+
+
 /* ------------------------------------------------------------------------------
 	Typography
 -------------------------------------------------------------------------------*/
@@ -119,8 +119,11 @@ ul li {
 #header .logo {
 	float: left;
 }
+#header .logo img {
+	height: 30px;
+}
 #header.fixed {
-	background-color: #627716;
+	background-color: rgba(3, 134, 10, 0.856)
 }
 #header.fixed .header-content {
 	border-bottom: 0;
@@ -377,6 +380,12 @@ ul li {
 	font-weight: 400;
 	margin-top: 30px;
 }
+
+.intro .brands {
+	columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
 /* ------------------------------------------------------------------------------
 	 Services
 -------------------------------------------------------------------------------*/
@@ -395,10 +404,18 @@ ul li {
 	font-size: 36px;
 	padding-left: 15px;
 }
+
+.services img {
+    margin-left: 15px;
+}
 /* ------------------------------------------------------------------------------
 	 Works
 -------------------------------------------------------------------------------*/
 .work {
+	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+	border: 5px solid white;
 	-moz-box-shadow: 0 0 0 1px #fff;
 	-webkit-box-shadow: 0 0 0 1px #fff;
 	box-shadow: 0 0 0 1px #fff;
@@ -524,7 +541,7 @@ ul li {
 	 Testimonials
 -------------------------------------------------------------------------------*/
 .testimonials {
-	background-color: #3dcc60;
+	background-color: #27873e;
 	position: relative;
 	text-align: center;
 }
