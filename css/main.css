@@ -127,10 +127,10 @@ ul li {
 }
 #header.fixed .header-content {
 	border-bottom: 0;
-	padding: 25px 0;
+	padding: 15px 0;
 }
 #header.fixed .nav-toggle {
-	top: 18px;
+	top: 10px;
 }
 .navigation.open {
 	opacity: 0.9;
@@ -141,6 +141,7 @@ ul li {
 	transition: opacity 0.5s;
 }
 .navigation {
+	padding-top: 8px;
 	float: right;
 }
 .navigation li {
@@ -366,7 +367,7 @@ ul li {
 .intro blockquote {
 	border: 0;
 	margin: 0;
-	padding: 100px 15% 0;
+	padding: 40px 15% 0;
 }
 .intro h1 {
 	color: #000;
@@ -383,8 +384,12 @@ ul li {
 
 .intro .brands {
 	columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
+  	-webkit-columns: 2;
+  	-moz-columns: 2;
+}
+
+.intro .larger-font {
+	font-size: 20px;
 }
 /* ------------------------------------------------------------------------------
 	 Services
@@ -475,6 +480,8 @@ ul li {
 	-ms-transform: translate3d(0, 200%, 0);
 	-webkit-transform: translate3d(0, 200%, 0);
 	transform: translate3d(0, 200%, 0);
+	font-size: 25px;
+	font-weight: 600;
 }
 .work-box:hover img {
 	-moz-transform: scale(1.2);
